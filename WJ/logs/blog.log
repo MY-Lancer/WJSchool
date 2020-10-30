@@ -1,0 +1,391 @@
+INFO 2020-09-23 21:29:33,201 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 21:43:55,476 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 21:47:16,892 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 21:49:16,683 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:15:15,942 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:16:23,385 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:17:41,150 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:19:38,611 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:25:46,376 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:39:29,862 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:41:06,890 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:42:24,185 autoreload 598 Watching for file changes with StatReloader
+ERROR 2020-09-23 23:42:33,896 log 228 Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/Python_Project/WJ/APP/views.py", line 20, in get
+    return render(request,'register.html')
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: register.html
+ERROR 2020-09-23 23:42:33,921 basehttp 157 "GET /register/ HTTP/1.1" 500 92202
+INFO 2020-09-23 23:43:41,163 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:43:43,283 basehttp 157 "GET /register/ HTTP/1.1" 200 5291
+WARNING 2020-09-23 23:43:43,415 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:43:43,416 basehttp 157 "GET /imagecode/?uuid=39344db3-b3c7-4fe6-8928-e24f64756915 HTTP/1.1" 404 2184
+WARNING 2020-09-23 23:43:45,529 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:43:45,535 basehttp 157 "GET /imagecode/?uuid=1158c5be-d446-43e5-9241-fd4a8cd0eee9 HTTP/1.1" 404 2184
+INFO 2020-09-23 23:47:39,175 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:47:41,446 basehttp 157 "GET /register/ HTTP/1.1" 200 4340
+WARNING 2020-09-23 23:47:41,557 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:47:41,558 basehttp 157 "GET /imagecode/?uuid=265825c4-410c-4f38-baa3-fc7ceded82d2 HTTP/1.1" 404 2184
+WARNING 2020-09-23 23:48:28,606 log 228 Not Found: /register/login.html
+WARNING 2020-09-23 23:48:28,608 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2169
+WARNING 2020-09-23 23:48:30,706 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:48:30,706 basehttp 157 "GET /imagecode/?uuid=9d464b42-63d2-40df-b8c4-9da0c0bd39df HTTP/1.1" 404 2184
+WARNING 2020-09-23 23:48:31,944 log 228 Not Found: /register/login.html
+WARNING 2020-09-23 23:48:31,944 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2169
+WARNING 2020-09-23 23:48:32,764 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:48:32,764 basehttp 157 "GET /imagecode/?uuid=f9aac34d-ddde-44aa-b99f-80d11ae70169 HTTP/1.1" 404 2184
+WARNING 2020-09-23 23:48:33,924 log 228 Not Found: /register/login.html
+WARNING 2020-09-23 23:48:33,926 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2169
+WARNING 2020-09-23 23:48:34,937 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:48:34,938 basehttp 157 "GET /imagecode/?uuid=4720087b-bd2e-4170-abec-fccbe6664112 HTTP/1.1" 404 2184
+INFO 2020-09-23 23:52:43,827 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:52:45,854 basehttp 157 "GET /register/ HTTP/1.1" 200 4417
+WARNING 2020-09-23 23:52:45,975 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:52:45,980 basehttp 157 "GET /imagecode/?uuid=7adf2ce3-a327-4c65-93d9-cc544ae65584 HTTP/1.1" 404 2184
+WARNING 2020-09-23 23:52:55,217 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:52:55,218 basehttp 157 "GET /imagecode/?uuid=8e83c979-78e2-422d-a1a7-843e57905200 HTTP/1.1" 404 2184
+WARNING 2020-09-23 23:52:58,228 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:52:58,229 basehttp 157 "GET /imagecode/?uuid=5faf4365-3634-4d36-afb1-398eb4716951 HTTP/1.1" 404 2184
+WARNING 2020-09-23 23:52:59,006 log 228 Not Found: /imagecode/
+WARNING 2020-09-23 23:52:59,007 basehttp 157 "GET /imagecode/?uuid=d5c3275e-50dd-443f-8d5c-ca797e99ccea HTTP/1.1" 404 2184
+WARNING 2020-09-23 23:53:05,496 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-23 23:53:05,591 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+INFO 2020-09-23 23:56:26,519 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:56:28,980 basehttp 157 "GET /register/ HTTP/1.1" 200 4417
+WARNING 2020-09-23 23:56:29,152 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-23 23:56:29,195 basehttp 157 "GET /imagecode/?uuid=029d5032-8998-478e-bca5-ce2a7de369fe HTTP/1.1" 200 3319
+INFO 2020-09-23 23:56:35,725 basehttp 157 "GET /imagecode/?uuid=fdc75a11-7948-4884-941b-f16cb9269217 HTTP/1.1" 200 3251
+INFO 2020-09-23 23:56:37,308 basehttp 157 "GET /imagecode/?uuid=6f9eee21-b1e7-47a2-991d-48c988c1618c HTTP/1.1" 200 2991
+INFO 2020-09-23 23:56:38,477 basehttp 157 "GET /imagecode/?uuid=276496d2-3969-4dea-ac4e-9c63702124d4 HTTP/1.1" 200 3289
+INFO 2020-09-23 23:57:10,068 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-23 23:57:21,810 basehttp 157 "GET /register/ HTTP/1.1" 200 4417
+INFO 2020-09-23 23:57:21,945 basehttp 157 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2020-09-23 23:57:21,950 basehttp 157 "GET /static/js/host.js HTTP/1.1" 200 40
+INFO 2020-09-23 23:57:21,993 basehttp 157 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2020-09-23 23:57:22,008 basehttp 157 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2020-09-23 23:57:22,094 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2020-09-23 23:57:24,186 basehttp 157 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+INFO 2020-09-23 23:57:24,667 basehttp 157 "GET /imagecode/?uuid=5a349c8f-478e-47dd-926b-a41944310845 HTTP/1.1" 200 3207
+WARNING 2020-09-23 23:57:24,754 log 228 Not Found: /favicon.ico
+WARNING 2020-09-23 23:57:24,755 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2320
+INFO 2020-09-24 00:00:51,785 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-09-24 00:01:11,545 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-24 15:26:38,807 autoreload 598 Watching for file changes with StatReloader
+WARNING 2020-09-24 15:26:44,725 log 228 Not Found: /
+WARNING 2020-09-24 15:26:44,725 basehttp 157 "GET / HTTP/1.1" 404 2269
+WARNING 2020-09-24 15:26:44,840 log 228 Not Found: /favicon.ico
+WARNING 2020-09-24 15:26:44,840 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2320
+WARNING 2020-09-24 15:26:52,419 log 228 Not Found: /Register
+WARNING 2020-09-24 15:26:52,419 basehttp 157 "GET /Register HTTP/1.1" 404 2311
+INFO 2020-09-24 15:26:58,399 basehttp 157 "GET /register HTTP/1.1" 301 0
+INFO 2020-09-24 15:26:58,488 basehttp 157 "GET /register/ HTTP/1.1" 200 4417
+INFO 2020-09-24 15:26:58,557 basehttp 157 "GET /static/js/register.js HTTP/1.1" 200 6407
+INFO 2020-09-24 15:26:59,038 basehttp 157 "GET /imagecode/?uuid=ea968fb1-75c2-425b-8ebf-2141845a2d91 HTTP/1.1" 200 3039
+WARNING 2020-09-24 15:27:09,293 log 228 Not Found: /register/login.html
+WARNING 2020-09-24 15:27:09,293 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2344
+INFO 2020-09-24 15:27:11,936 basehttp 157 "GET /imagecode/?uuid=fa5181bb-b738-474b-9be8-559b75553f81 HTTP/1.1" 200 3345
+WARNING 2020-09-24 15:27:13,560 log 228 Not Found: /register/login.html
+WARNING 2020-09-24 15:27:13,560 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2344
+INFO 2020-09-24 15:27:14,757 basehttp 157 "GET /imagecode/?uuid=2ae6af82-e7b5-4ed5-acc3-c5be94080b7c HTTP/1.1" 200 3178
+INFO 2020-09-24 17:37:09,665 autoreload 598 Watching for file changes with StatReloader
+ERROR 2020-09-24 17:37:13,623 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/urls/base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/Python_Project/WJ/APP/views.py", line 128, in get
+    return render(request,'index.html')
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/urls/base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR 2020-09-24 17:37:13,625 basehttp 157 "GET / HTTP/1.1" 500 135125
+INFO 2020-09-24 17:38:22,644 autoreload 598 Watching for file changes with StatReloader
+ERROR 2020-09-24 17:38:24,781 log 228 Internal Server Error: /
+Traceback (most recent call last):
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/urls/base.py", line 72, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'users'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/views/generic/base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/views/generic/base.py", line 97, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/Python_Project/WJ/APP/views.py", line 128, in get
+    return render(request,'index.html')
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/base.py", line 171, in render
+    return self._render(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/base.py", line 163, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/base.py", line 936, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/base.py", line 903, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/template/defaulttags.py", line 443, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/root/.virtualenvs/Blog/lib/python3.7/site-packages/django/urls/base.py", line 83, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'users' is not a registered namespace
+ERROR 2020-09-24 17:38:24,791 basehttp 157 "GET / HTTP/1.1" 500 136144
+INFO 2020-09-24 17:40:06,435 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 17:40:08,196 basehttp 157 "GET / HTTP/1.1" 200 2832
+INFO 2020-09-24 17:40:15,430 basehttp 157 "GET /register/ HTTP/1.1" 200 4242
+INFO 2020-09-24 17:40:15,505 basehttp 157 "GET /static/js/register.js HTTP/1.1" 304 0
+INFO 2020-09-24 17:40:15,590 basehttp 157 "GET /imagecode/?uuid=65457386-6391-4af6-a297-6d40962f1dd4 HTTP/1.1" 200 3151
+INFO 2020-09-24 17:40:19,845 basehttp 157 "GET /register/ HTTP/1.1" 200 4242
+INFO 2020-09-24 17:40:19,912 basehttp 157 "GET /imagecode/?uuid=7b787d93-f920-4d33-8369-d78f8d033522 HTTP/1.1" 200 3365
+WARNING 2020-09-24 17:40:20,940 log 228 Not Found: /register/login.html
+WARNING 2020-09-24 17:40:20,942 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2505
+INFO 2020-09-24 17:40:22,369 basehttp 157 "GET /imagecode/?uuid=c3d4fed1-69be-4ee3-9669-0b35d4fb012c HTTP/1.1" 200 2916
+INFO 2020-09-24 17:40:29,788 basehttp 157 "GET /register/ HTTP/1.1" 200 4242
+INFO 2020-09-24 17:40:29,854 basehttp 157 "GET /imagecode/?uuid=dcbd961c-8cc6-416b-a91d-b63f61846ec7 HTTP/1.1" 200 3046
+INFO 2020-09-24 17:40:32,713 basehttp 157 "GET /register/ HTTP/1.1" 200 4242
+INFO 2020-09-24 17:40:32,779 basehttp 157 "GET /imagecode/?uuid=2ccd7505-a214-49a0-ab3d-0fb5dbf9d98d HTTP/1.1" 200 3083
+WARNING 2020-09-24 17:41:00,962 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-24 17:41:01,009 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 200 562427
+WARNING 2020-09-24 17:41:04,581 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-24 17:42:54,414 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 17:42:56,012 basehttp 157 "GET / HTTP/1.1" 200 2820
+WARNING 2020-09-24 17:43:08,120 log 228 Bad Request: /
+WARNING 2020-09-24 17:43:08,120 basehttp 157 "POST / HTTP/1.1" 400 21
+INFO 2020-09-24 17:43:20,203 basehttp 157 "GET /register/ HTTP/1.1" 200 4242
+INFO 2020-09-24 17:43:20,276 basehttp 157 "GET /imagecode/?uuid=4ba7db4a-e534-4718-a4a0-57c2b560d041 HTTP/1.1" 200 3033
+INFO 2020-09-24 17:44:32,455 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 17:44:34,455 basehttp 157 "GET /register/ HTTP/1.1" 200 4242
+INFO 2020-09-24 17:44:34,529 basehttp 157 "GET /imagecode/?uuid=beede793-2c3c-478b-92e4-0125e1a02084 HTTP/1.1" 200 3000
+WARNING 2020-09-24 17:44:35,449 log 228 Not Found: /register/login.html
+WARNING 2020-09-24 17:44:35,452 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2505
+INFO 2020-09-24 17:44:38,379 basehttp 157 "GET /imagecode/?uuid=f9f27964-1b54-4c9d-95c0-fa02a2300eb2 HTTP/1.1" 200 2722
+INFO 2020-09-24 17:46:03,568 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 17:46:08,255 basehttp 157 "GET /register/ HTTP/1.1" 200 4240
+INFO 2020-09-24 17:46:08,329 basehttp 157 "GET /imagecode/?uuid=ebefd5ac-a01f-4ec0-9ba0-550a16f14a2f HTTP/1.1" 200 3374
+WARNING 2020-09-24 17:46:09,222 log 228 Not Found: /register/login.html
+WARNING 2020-09-24 17:46:09,223 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2505
+INFO 2020-09-24 17:46:13,913 basehttp 157 "GET /imagecode/?uuid=82017e10-90a6-4876-82a3-e13712f574b4 HTTP/1.1" 200 3095
+INFO 2020-09-24 17:48:59,545 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 17:49:04,159 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:49:05,535 basehttp 157 "GET /register/ HTTP/1.1" 200 4256
+INFO 2020-09-24 17:49:05,632 basehttp 157 "GET /imagecode/?uuid=9dae6e2b-0db0-4858-ba78-a31814c724f3 HTTP/1.1" 200 3358
+INFO 2020-09-24 17:49:06,585 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:49:08,495 basehttp 157 "GET /register/ HTTP/1.1" 200 4256
+INFO 2020-09-24 17:49:08,558 basehttp 157 "GET /imagecode/?uuid=1a69d1d5-5684-4d35-b1ef-30980dec6826 HTTP/1.1" 200 3069
+INFO 2020-09-24 17:49:09,724 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:49:10,807 basehttp 157 "GET /register/ HTTP/1.1" 200 4256
+INFO 2020-09-24 17:49:10,879 basehttp 157 "GET /imagecode/?uuid=ad72986c-26d9-4572-b01a-72c45485bcce HTTP/1.1" 200 3112
+INFO 2020-09-24 17:49:11,694 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:49:39,525 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:49:40,267 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 140942
+INFO 2020-09-24 17:49:40,268 basehttp 157 "GET /static/js/host.js HTTP/1.1" 200 40
+INFO 2020-09-24 17:49:40,892 basehttp 157 "GET /static/js/axios-0.18.0.min.js HTTP/1.1" 200 12941
+INFO 2020-09-24 17:49:40,893 basehttp 157 "GET /static/js/common.js HTTP/1.1" 200 891
+INFO 2020-09-24 17:49:40,893 basehttp 157 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2020-09-24 17:49:41,036 basehttp 157 "GET /static/js/vue-2.5.16.js HTTP/1.1" 200 289307
+WARNING 2020-09-24 17:49:43,830 log 228 Not Found: /favicon.ico
+WARNING 2020-09-24 17:49:43,831 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2481
+INFO 2020-09-24 17:49:54,616 basehttp 157 "GET /register/ HTTP/1.1" 200 4256
+INFO 2020-09-24 17:49:54,688 basehttp 157 "GET /imagecode/?uuid=7d1c290a-cd5d-4369-b06d-09c798d0506f HTTP/1.1" 200 3218
+INFO 2020-09-24 17:49:59,581 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:50:37,777 basehttp 157 "GET /register/ HTTP/1.1" 200 4256
+INFO 2020-09-24 17:50:37,876 basehttp 157 "GET /imagecode/?uuid=fe4890a5-cb58-4721-9aaa-db778a1edbe0 HTTP/1.1" 200 3209
+INFO 2020-09-24 17:55:47,965 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 17:55:51,024 basehttp 157 "GET /register/ HTTP/1.1" 200 4280
+INFO 2020-09-24 17:55:51,101 basehttp 157 "GET /imagecode/?uuid=2754a98d-712a-45fc-ae43-1ef6f4154eb0 HTTP/1.1" 200 2935
+INFO 2020-09-24 17:55:52,026 basehttp 157 "GET /register/ HTTP/1.1" 200 4280
+INFO 2020-09-24 17:55:52,096 basehttp 157 "GET /imagecode/?uuid=d3693091-fc8a-4551-909c-eb34183bf9fc HTTP/1.1" 200 3226
+INFO 2020-09-24 17:55:52,644 basehttp 157 "GET /register/ HTTP/1.1" 200 4280
+INFO 2020-09-24 17:55:52,746 basehttp 157 "GET /imagecode/?uuid=c3ef0629-8ba2-4cd7-a9d0-5adab5998410 HTTP/1.1" 200 3275
+INFO 2020-09-24 17:55:54,218 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:55:56,076 basehttp 157 "GET /register/ HTTP/1.1" 200 4280
+INFO 2020-09-24 17:55:56,141 basehttp 157 "GET /imagecode/?uuid=22f3dd86-1f7f-4cd8-819b-e69211f7fda6 HTTP/1.1" 200 3209
+INFO 2020-09-24 17:56:27,861 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 17:56:29,349 basehttp 157 "GET /register/ HTTP/1.1" 200 4263
+INFO 2020-09-24 17:56:29,421 basehttp 157 "GET /imagecode/?uuid=e1bd6112-6534-4497-9d2c-8b73909c59d0 HTTP/1.1" 200 3024
+INFO 2020-09-24 17:56:32,520 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:56:34,244 basehttp 157 "GET /imagecode/?uuid=fcc2d085-c38b-43ac-a49d-1a2a5f1c679a HTTP/1.1" 200 3457
+INFO 2020-09-24 17:56:43,877 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:56:45,997 basehttp 157 "GET /register/ HTTP/1.1" 200 4263
+INFO 2020-09-24 17:56:46,054 basehttp 157 "GET /imagecode/?uuid=2acd67e5-bb81-4511-b78c-9bb7a417fb16 HTTP/1.1" 200 2833
+INFO 2020-09-24 17:56:47,450 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 17:56:48,742 basehttp 157 "GET /register/ HTTP/1.1" 200 4263
+INFO 2020-09-24 17:56:48,804 basehttp 157 "GET /imagecode/?uuid=834919c7-9b9c-42b1-935c-332b421bd52b HTTP/1.1" 200 3108
+INFO 2020-09-24 17:59:17,822 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 17:59:21,035 basehttp 157 "GET /register/ HTTP/1.1" 200 4252
+INFO 2020-09-24 17:59:21,111 basehttp 157 "GET /imagecode/?uuid=dea7a4d0-3daa-4b8a-9e13-3c650d04885f HTTP/1.1" 200 3208
+INFO 2020-09-24 17:59:22,414 basehttp 157 "GET /register/ HTTP/1.1" 200 4252
+INFO 2020-09-24 17:59:22,482 basehttp 157 "GET /imagecode/?uuid=b8e044ae-a216-4e14-9f00-96a04b7d7581 HTTP/1.1" 200 2960
+INFO 2020-09-24 17:59:23,284 basehttp 157 "GET /register/ HTTP/1.1" 200 4252
+INFO 2020-09-24 17:59:23,356 basehttp 157 "GET /imagecode/?uuid=3c54fdb7-82b6-42c6-af51-678d72698423 HTTP/1.1" 200 3603
+INFO 2020-09-24 20:51:43,220 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 20:53:04,803 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 20:53:22,959 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 20:53:49,442 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 20:54:04,213 basehttp 157 "GET / HTTP/1.1" 200 2820
+WARNING 2020-09-24 20:54:04,507 log 228 Not Found: /favicon.ico
+WARNING 2020-09-24 20:54:04,508 basehttp 157 "GET /favicon.ico HTTP/1.1" 404 2481
+INFO 2020-09-24 20:54:06,266 basehttp 157 "GET /register/ HTTP/1.1" 200 5408
+INFO 2020-09-24 20:54:06,370 basehttp 157 "GET /imagecode/?uuid=6fdc431a-2346-4855-93a3-e87be4fb2a49 HTTP/1.1" 200 3316
+WARNING 2020-09-24 20:54:14,853 log 228 Not Found: /register/login.html
+WARNING 2020-09-24 20:54:14,853 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2505
+INFO 2020-09-24 20:54:54,619 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 20:54:56,740 basehttp 157 "GET /imagecode/?uuid=37a2be8f-c632-44cc-a0a8-5531fcb8f0bb HTTP/1.1" 200 3324
+WARNING 2020-09-24 20:54:58,681 log 228 Not Found: /register/login.html
+WARNING 2020-09-24 20:54:58,682 basehttp 157 "GET /register/login.html HTTP/1.1" 404 2505
+INFO 2020-09-24 20:55:04,652 basehttp 157 "GET /imagecode/?uuid=a5cf2aa8-ace5-4143-b376-6d67288b72fd HTTP/1.1" 200 3362
+INFO 2020-09-24 20:55:07,324 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 20:55:09,850 basehttp 157 "GET /register/ HTTP/1.1" 200 5428
+INFO 2020-09-24 20:55:09,929 basehttp 157 "GET /imagecode/?uuid=f3202310-5b96-469f-a22b-0c29d4c7836b HTTP/1.1" 200 3066
+INFO 2020-09-24 20:56:20,502 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 20:56:22,601 basehttp 157 "GET /register/ HTTP/1.1" 200 5422
+INFO 2020-09-24 20:56:22,721 basehttp 157 "GET /imagecode/?uuid=f0e02e4f-76b1-46ca-9670-082dcb571595 HTTP/1.1" 200 4018
+INFO 2020-09-24 20:56:23,690 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 20:56:25,128 basehttp 157 "GET /register/ HTTP/1.1" 200 5422
+INFO 2020-09-24 20:56:25,213 basehttp 157 "GET /imagecode/?uuid=63397785-7715-4b72-aa3d-fa8e641a70d9 HTTP/1.1" 200 3314
+INFO 2020-09-24 21:22:25,296 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 21:24:16,963 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 21:24:21,611 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-24 21:24:23,171 basehttp 157 "GET /register/ HTTP/1.1" 200 5422
+INFO 2020-09-24 21:24:23,292 basehttp 157 "GET /imagecode/?uuid=ed6ad749-56a1-4bb6-b095-453563b37811 HTTP/1.1" 200 3469
+WARNING 2020-09-24 21:25:40,134 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-24 21:25:40,156 basehttp 157 "GET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1" 304 0
+INFO 2020-09-24 21:26:45,692 basehttp 157 "GET / HTTP/1.1" 200 2820
+WARNING 2020-09-24 21:26:45,938 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-24 21:26:51,207 basehttp 157 "GET /register/ HTTP/1.1" 200 5422
+WARNING 2020-09-24 21:26:51,352 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-24 21:26:51,454 basehttp 157 "GET /imagecode/?uuid=cd0b2fdb-56d4-4213-8b0f-20e36f5c3033 HTTP/1.1" 200 3320
+INFO 2020-09-24 21:28:31,723 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 21:28:48,104 basehttp 157 "GET /imagecode/?uuid=8734c77c-c557-4ac7-b5cf-7c7676f07721 HTTP/1.1" 200 3256
+INFO 2020-09-24 22:00:49,177 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 22:00:57,442 basehttp 157 "GET /register/ HTTP/1.1" 200 5422
+INFO 2020-09-24 22:00:57,600 basehttp 157 "GET /imagecode/?uuid=35a917c4-57d3-46a0-897b-66e4c90ff8a4 HTTP/1.1" 200 3136
+WARNING 2020-09-24 22:01:15,533 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-24 22:03:07,159 basehttp 157 "GET /imagecode/?uuid=88fae8f5-aab6-46ea-b916-fde4021a8b90 HTTP/1.1" 200 3482
+INFO 2020-09-24 22:05:29,397 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-24 22:07:58,717 basehttp 157 "GET / HTTP/1.1" 200 2820
+WARNING 2020-09-24 22:08:02,750 log 228 Bad Request: /
+WARNING 2020-09-24 22:08:02,751 basehttp 157 "POST / HTTP/1.1" 400 24
+WARNING 2020-09-24 22:08:11,916 log 228 Bad Request: /
+WARNING 2020-09-24 22:08:11,917 basehttp 157 "POST / HTTP/1.1" 400 24
+WARNING 2020-09-24 22:08:25,026 log 228 Bad Request: /
+WARNING 2020-09-24 22:08:25,026 basehttp 157 "POST / HTTP/1.1" 400 24
+INFO 2020-09-27 14:30:12,292 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-27 14:30:15,533 basehttp 157 "GET /register/ HTTP/1.1" 200 5422
+WARNING 2020-09-27 14:30:15,696 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:30:15,827 basehttp 157 "GET /imagecode/?uuid=c810cbee-8458-4016-916d-a483a6a7e256 HTTP/1.1" 200 3008
+INFO 2020-09-27 14:30:47,587 basehttp 157 "GET /register/ HTTP/1.1" 200 5422
+WARNING 2020-09-27 14:30:47,692 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:30:47,692 basehttp 157 "GET /imagecode/?uuid=7b6349d5-461b-482a-850e-cf457d14bf01 HTTP/1.1" 200 3153
+INFO 2020-09-27 14:45:28,049 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-27 14:46:04,447 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:46:04,526 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:47:11,861 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:47:11,961 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:47:11,987 basehttp 157 "GET /imagecode/?uuid=4cc5f2dc-809e-449e-a2e5-cce1cd536f99 HTTP/1.1" 200 3534
+INFO 2020-09-27 14:47:50,978 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:47:51,059 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:47:51,085 basehttp 157 "GET /imagecode/?uuid=544db44b-6f13-46ee-9356-71843f85d4a6 HTTP/1.1" 200 3047
+INFO 2020-09-27 14:48:01,749 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:48:01,834 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:48:01,858 basehttp 157 "GET /imagecode/?uuid=865d8c4d-fb2d-4710-8720-684ccfac5ee1 HTTP/1.1" 200 2967
+INFO 2020-09-27 14:48:02,746 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:48:02,809 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:48:02,850 basehttp 157 "GET /imagecode/?uuid=ebe67f03-016f-4f7a-8c06-4aef92077e87 HTTP/1.1" 200 2938
+INFO 2020-09-27 14:48:03,612 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:48:03,682 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:48:03,717 basehttp 157 "GET /imagecode/?uuid=95aa84e5-998b-400b-b532-6e0d8331ff27 HTTP/1.1" 200 3499
+INFO 2020-09-27 14:48:04,433 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:48:04,495 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:48:04,528 basehttp 157 "GET /imagecode/?uuid=3cb64f77-d345-4a31-8d42-8fe6408e7b46 HTTP/1.1" 200 3167
+INFO 2020-09-27 14:48:05,140 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:48:05,215 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:48:05,253 basehttp 157 "GET /imagecode/?uuid=bfeff7c0-44b0-4189-956d-919749f785df HTTP/1.1" 200 2903
+INFO 2020-09-27 14:48:05,792 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:48:05,866 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:48:05,897 basehttp 157 "GET /imagecode/?uuid=7eff9f29-ab03-4382-bfad-8d0c424c778b HTTP/1.1" 200 3057
+INFO 2020-09-27 14:48:06,374 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+WARNING 2020-09-27 14:48:06,440 basehttp 157 "GET /static/js/axios.min.map HTTP/1.1" 404 1678
+INFO 2020-09-27 14:48:06,477 basehttp 157 "GET /imagecode/?uuid=128c74a3-2bc8-4943-bbab-4ac59b6ba6d0 HTTP/1.1" 200 3111
+INFO 2020-09-27 14:48:52,569 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-27 14:48:52,607 basehttp 157 "GET /static/js/login.js HTTP/1.1" 200 677
+INFO 2020-09-27 14:48:56,046 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+INFO 2020-09-27 14:48:56,110 basehttp 157 "GET /imagecode/?uuid=08aacd61-19a0-4bfd-97d3-5a8533f9dcea HTTP/1.1" 200 3095
+INFO 2020-09-27 14:48:57,522 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-27 14:49:03,668 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-27 14:49:05,127 basehttp 157 "GET / HTTP/1.1" 200 2820
+INFO 2020-09-27 14:49:05,976 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+INFO 2020-09-27 14:49:06,065 basehttp 157 "GET /imagecode/?uuid=df6a999c-d533-4cc0-ab86-5d9610ac6ba3 HTTP/1.1" 200 3208
+INFO 2020-09-27 14:51:30,899 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-27 14:51:38,384 basehttp 157 "GET /register/ HTTP/1.1" 200 4181
+INFO 2020-09-27 14:51:38,453 basehttp 157 "GET /imagecode/?uuid=9300fe1f-c345-410a-8496-91ded5ca6c90 HTTP/1.1" 200 3126
+INFO 2020-09-27 15:58:24,513 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-27 15:58:32,679 basehttp 157 "GET /imagecode/?uuid=509af442-1d83-4b0d-bee2-fd2fe5c1c74e HTTP/1.1" 200 2878
+WARNING 2020-09-27 15:58:56,968 log 228 Bad Request: /register/
+WARNING 2020-09-27 15:58:56,969 basehttp 157 "POST /register/ HTTP/1.1" 400 21
+INFO 2020-09-27 15:59:04,886 basehttp 157 "GET /imagecode/?uuid=a8221b67-75d3-473b-b639-55644d4c1ffe HTTP/1.1" 200 2923
+INFO 2020-09-27 16:00:39,820 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-27 16:00:42,694 basehttp 157 "GET /register/ HTTP/1.1" 200 5235
+INFO 2020-09-27 16:00:56,477 basehttp 157 "GET /register/ HTTP/1.1" 200 5235
+INFO 2020-09-27 16:05:52,406 autoreload 598 Watching for file changes with StatReloader
+INFO 2020-09-27 16:05:56,294 basehttp 157 "GET /register/ HTTP/1.1" 200 5303
+INFO 2020-09-27 16:05:56,381 basehttp 157 "GET /imagecode/?uuid=2ab3d3d1-5bc3-4a8a-95b0-69ecf4df03ff HTTP/1.1" 200 3064
+INFO 2020-09-27 16:06:27,001 basehttp 157 "POST /register/ HTTP/1.1" 302 0
+INFO 2020-09-27 16:06:27,067 basehttp 157 "GET / HTTP/1.1" 200 2820
